@@ -1,0 +1,15 @@
+#navbar{
+    
+}
+#navbar-logo{
+    float: left;
+}
+#navbar-buttons{
+    float: right;
+}
+#img-baner{
+    clear: both;
+}
+main, footer{
+    text-align: center;
+}
