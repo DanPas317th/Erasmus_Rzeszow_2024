@@ -1,15 +1,66 @@
-#navbar{
-    
+body{
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
 }
-#navbar-logo{
-    float: left;
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 100px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
 }
-#navbar-buttons{
-    float: right;
+
+#filler{
+    height: 85px;
 }
+
+.logo{
+    font-size: 36px;
+    border: 0px;
+    font-weight: bold;
+}
+
 #img-baner{
-    clear: both;
+    height: 600px;
+    background-color: skyblue;
+    padding: 10px 20px 30px;
+    font-size: 32px;
 }
+
+#main{
+    height: 800px;
+    background-color: whitesmoke;
+}
+
+footer{
+    height: 150px;
+    background-image: linear-gradient(to bottom right,yellow, goldenrod);
+    padding: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+    border: 4px white solid;
+    border-radius: 15px;
+    transition: 0.1s;
+}
+a:hover{
+    border: 6px white solid;
+}
+a:active{
+    border: 2px white solid;
+}
+
 main, footer{
     text-align: center;
 }
