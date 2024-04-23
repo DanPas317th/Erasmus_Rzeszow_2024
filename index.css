@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     min-height: 100vh;
     margin: 0%;
     padding: 0%;
+    font-family: "Raleway", sans-serif;
 }
 
 header{
@@ -28,15 +30,32 @@ header{
 }
 
 #img-baner{
-    height: 600px;
+    height: 425px;
     background-color: skyblue;
-    padding: 10px 20px 30px;
     font-size: 32px;
+    background-image:linear-gradient(rgba(0,50,0,.2), rgba(0,0,0,1) 98%, darkred 100%), url(baner.jpg);
+    background-size: cover;
+    padding: 400px 100px 25px;
+    text-align: left;
+    color: white;
 }
 
 #main{
     height: 850px;
     background-color: whitesmoke;
+}
+
+#main-buttons{
+    background-color: darkred;
+    height: 90px;
+    padding: 75px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-buttons a{
+    padding: 25px 20px 65px;
+    font-size: 36px;
 }
 
 footer{
@@ -54,6 +73,9 @@ a{
     border-radius: 15px;
     transition: 0.1s;
 }
+
+
+
 a:hover{
     border: 6px white solid;
 }
