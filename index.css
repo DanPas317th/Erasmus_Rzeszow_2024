@@ -30,12 +30,12 @@ header{
 }
 
 #img-baner{
-    height: 425px;
+    height: 800px;
     background-color: skyblue;
     font-size: 32px;
     background-image:linear-gradient(rgba(0,100,0,1), rgba(0,0,0,.2) 10%, rgba(0,0,0,.2) 50%, rgba(0,0,0,.2) 80%, darkred 95%), url(baner.jpg);
     background-size: cover;
-    padding: 400px 100px 25px;
+    padding: 50px 500px 25px;
     text-align: left;
     color: white;
 }
