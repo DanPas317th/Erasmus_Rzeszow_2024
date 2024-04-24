@@ -103,3 +103,27 @@ a:active{
 main, footer{
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 20%;
+        text-align: left;
+    }
+    a{
+        font-size: 16px;
+        border: 0px white solid;
+        padding: 0px;
+        margin: 10px;
+    }
+    
+    #filler{
+        height: 170px;
+    }
+    #img-baner {
+        padding: 5px 2%; /* Adjusted padding for smaller screens */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 225px;
+        font-size: 16px;
+    }
+}
